@@ -1,2 +1,2 @@
 # pedjq.github.io
-Fully responsive website
+Fully responsive website using flexbox and media queries
