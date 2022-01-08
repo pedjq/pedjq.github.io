@@ -1,0 +1,284 @@
+body{
+  margin:0 ;
+  padding:0;
+}
+.header{
+
+  background-image:url(../images/bg-hero-desktop.svg);
+  background-repeat: no-repeat;
+  padding: 40px;
+
+}
+
+.header .header-link{
+
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 3px solid #f6f6f6;
+  -webkit-box-shadow: 0 0 10px #f6f6f6;
+          box-shadow: 0 0 10px #f6f6f6;
+  border-radius: 25px;
+  color: #002129;
+  text-decoration: none;
+  font-family: "Poppins";
+  font-weight: 700;
+  text-align: center;
+}
+.header-link:hover{
+  color: #abb5bf;
+  transition: 0.3s;
+
+}
+.start-button:hover{
+  background-color: #ff9bdb;
+  transition: 0.3s;
+  border:#ff9bdb;
+}
+.header h1{
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.header p{
+  font-family: "Poppins";
+  word-wrap: break-word;
+}
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+
+}
+.main-content > *{
+  flex-basis: 100%;
+}
+.main-content{
+  display: flex;
+align-items: center;
+
+
+
+}
+.hover-link:hover{
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+
+.main-text h1{
+    font-size: 50px;
+    color: #002129;
+}
+.main-text p{
+  font-size: 20px;
+  padding-bottom: 30px;
+  color: #002129;
+}
+.start-button{
+  font-family: "Poppins";
+  border: 1px solid #fe52c0;
+  background-color: #fe52c0;
+  color: #fff;
+  padding:20px 80px;
+  border-radius: 40px;
+  text-decoration: none;
+
+}
+.main-image img{
+  width: 90%;
+  position: relative;
+  top: 20px;
+}
+
+.grow-together{
+  display: flex;
+  margin: 100px 200px;
+  font-family: "Poppins";
+  color: #002129;
+  gap:110px;
+  border: 3px solid #f6f6f6;
+  border-radius: 25px;
+  -webkit-box-shadow: 0 0 10px #f6f6f6;
+          box-shadow: 0 0 10px #f6f6f6;
+  padding:15px;
+
+
+
+
+}
+
+.fa-twitter:hover{
+  color: #ff49c3;
+  transition: 0.3s;
+}
+.fa-facebook:hover{
+  color: #ff49c3;
+  transition: 0.3s;
+}
+.fa-instagram:hover{
+  color:#ff49c3;
+  transition: 0.3s;
+}
+.testimonial-image{
+  width:417px;
+  height:360px;
+}
+.grow-text{
+  align-self: center;
+}
+.grow-text p {
+  font-size: 20px;
+}
+.grow-together p {
+color: #83888c;
+}
+.grow-image{
+  text-align: center;
+}
+.grow-together-v2{
+flex-direction: row-reverse;
+}
+.build-community{
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  margin: 200px 450px;
+  font-family: "Poppins";
+  color: #002129;
+  border: 3px solid #f6f6f6;
+  border-radius: 25px;
+  -webkit-box-shadow: 0 0 10px #f6f6f6;
+          box-shadow: 0 0 10px #f6f6f6;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.flex-footer{
+  display: flex;
+  font-family: "Poppins";
+ color: #fff;
+  background-color: #002129;
+  padding: 100px;
+
+
+
+}
+.flex-footer ul{
+  list-style: none;
+
+
+}
+.flex-footer li{
+  padding-bottom: 10px;
+  padding-right: 40px;
+
+}
+.flex-footer a{
+  text-decoration: none;
+  color: #fff;
+}
+.flex-footer > *{
+  flex-basis: 100%;
+}
+i{
+  padding-right: 10px;
+}
+.annoying{
+  padding-top: 10px;
+}
+.af{
+  padding-top:70px;
+}
+.copyright li{
+  position: relative;
+  top: 350px;
+  font-size: 13px;
+}
+.obmotaj{
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 1300px){
+
+ .main-content{
+    flex-direction: column;
+    text-align: center;
+  }
+  .main-text{
+    padding-bottom: 20px;
+
+}
+.grow-together{
+  flex-direction: column-reverse;
+  justify-content: center;
+  flex-basis: 80%;
+  margin: 40px;
+  text-align: center;
+
+
+}
+.grow-together img{
+  width: 300px;
+  height: 300px;
+}
+.footer{
+  margin-top: 40px;
+}
+.flex-footer{
+  flex-direction: column;
+  padding: 20px;
+}
+.copyright li{
+  position: static;
+  text-align: center;
+}
+.build-community{
+  width: 90%;
+  margin: auto;
+  text-align: center;
+
+
+}
+.header{
+  padding:20px;
+
+}
+.navigation{
+  margin-bottom: 100px;
+}
+@media only screen and (max-width:450px){
+  .navigation img{
+    height: 20px;
+    padding-top: 10px;
+  }
+  .start-button{
+    font-size: 12px;
+  }
+
+}
+@media only screen and (max-width:360px){
+  body{
+    max-width: 350px;
+  }
+  .header-link{
+    visibility: hidden;
+  }
+
+
+  .center-it{
+     position: relative;
+     left: 75px;
+  }
+  .first{
+    font-size: 12px;
+  }
+  .grow-together img{
+    width: 150px;
+    height: 150px;
+}
+.footer-logo{
+  position:relative;
+  right: 30px;
+}
